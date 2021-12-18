@@ -49,14 +49,14 @@ body {
     text-align: center;
     height: 340px;
     .inner {
-      &.loginBtns {
-        padding: 50px 10px 10px;
-      }
       width: 250px;
       margin: 0 auto;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      &.loginBtns {
+        padding: 50px 10px 10px;
+      }
       .login {
         color: #fff;
         margin: 5px 10px;
